@@ -1,0 +1,20 @@
+
+Table Customer
+
+/* select table*/
+
+
+SELECT * FROM Customers
+ORDER BY Country;
+
+/* desc filter*/
+
+
+SELECT * FROM Customers
+ORDER BY Country DESC;
+
+/*مرتب سازی بر اساس چند ستون */
+
+	
+SELECT * FROM Customers
+ORDER BY Country, CustomerName;
